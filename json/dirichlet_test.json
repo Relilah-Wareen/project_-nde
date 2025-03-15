@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+      {
+        "name": "Dirichlet_N8",
+        "grid_num": 8,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Dirichlet",
+          "functions": ["Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Dirichlet_N16",
+        "grid_num": 16,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Dirichlet",
+          "functions": ["Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Dirichlet_N32",
+        "grid_num": 32,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Dirichlet",
+          "functions": ["Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Dirichlet_N64",
+        "grid_num": 64,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Dirichlet",
+          "functions": ["Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      }
+    ]
+  }

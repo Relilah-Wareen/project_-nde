@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+      {
+        "name": "Neumann_N8",
+        "grid_num": 8,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Neumann_N16",
+        "grid_num": 16,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Neumann_N32",
+        "grid_num": 32,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Neumann_N64",
+        "grid_num": 64,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "value_at_00": 1.0
+      }
+    ]
+  }

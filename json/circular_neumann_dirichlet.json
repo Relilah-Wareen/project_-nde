@@ -1,0 +1,80 @@
+{
+    "test_cases": [
+      {
+        "name": "Circular_Neumann_Dirichlet_N8",
+        "grid_num": 8,
+        "domain": {
+          "type": "Circular",
+          "center_x": 0.5,
+          "center_y": 0.5,
+          "radius": 0.2
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "circle_boundary": {
+          "type": "Dirichlet",
+          "function": "Sq_Dirichlet_bound"
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Circular_Neumann_Dirichlet_N16",
+        "grid_num": 16,
+        "domain": {
+          "type": "Circular",
+          "center_x": 0.5,
+          "center_y": 0.5,
+          "radius": 0.2
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "circle_boundary": {
+          "type": "Dirichlet",
+          "function": "Sq_Dirichlet_bound"
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Circular_Neumann_Dirichlet_N32",
+        "grid_num": 32,
+        "domain": {
+          "type": "Circular",
+          "center_x": 0.5,
+          "center_y": 0.5,
+          "radius": 0.2
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "circle_boundary": {
+          "type": "Dirichlet",
+          "function": "Sq_Dirichlet_bound"
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Circular_Neumann_Dirichlet_N64",
+        "grid_num": 64,
+        "domain": {
+          "type": "Circular",
+          "center_x": 0.5,
+          "center_y": 0.5,
+          "radius": 0.2
+        },
+        "square_boundary": {
+          "type": "Neumann",
+          "functions": ["Sq_Neumann_bound1", "Sq_Neumann_bound2", "Sq_Neumann_bound3", "Sq_Neumann_bound4"]
+        },
+        "circle_boundary": {
+          "type": "Dirichlet",
+          "function": "Sq_Dirichlet_bound"
+        },
+        "value_at_00": 1.0
+      }
+    ]
+  }

@@ -1,0 +1,56 @@
+{
+    "test_cases": [
+      {
+        "name": "Mixed_NDND_N8",
+        "grid_num": 8,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Mixed",
+          "mixed_type": "NDND",
+          "functions": ["Sq_Neumann_bound1", "Sq_Dirichlet_bound", "Sq_Neumann_bound3", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Mixed_NDND_N16",
+        "grid_num": 16,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Mixed",
+          "mixed_type": "NDND",
+          "functions": ["Sq_Neumann_bound1", "Sq_Dirichlet_bound", "Sq_Neumann_bound3", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Mixed_NDND_N32",
+        "grid_num": 32,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Mixed",
+          "mixed_type": "NDND",
+          "functions": ["Sq_Neumann_bound1", "Sq_Dirichlet_bound", "Sq_Neumann_bound3", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      },
+      {
+        "name": "Mixed_NDND_N64",
+        "grid_num": 64,
+        "domain": {
+          "type": "Default"
+        },
+        "square_boundary": {
+          "type": "Mixed",
+          "mixed_type": "NDND",
+          "functions": ["Sq_Neumann_bound1", "Sq_Dirichlet_bound", "Sq_Neumann_bound3", "Sq_Dirichlet_bound"]
+        },
+        "value_at_00": 1.0
+      }
+    ]
+  }
