@@ -1,0 +1,112 @@
+Running test case: dim=1, grid_num=32, boundary="Dirichlet", solver=FMG
+Completed in 456 μs
+Results saved to ../data/solution_dim1_n32_Dirichlet.csv
+
+Running test case: dim=1, grid_num=64, boundary="Dirichlet", solver=FMG
+Completed in 364 μs
+Results saved to ../data/solution_dim1_n64_Dirichlet.csv
+
+Running test case: dim=1, grid_num=128, boundary="Dirichlet", solver=FMG
+Completed in 632 μs
+Results saved to ../data/solution_dim1_n128_Dirichlet.csv
+
+Running test case: dim=1, grid_num=256, boundary="Dirichlet", solver=FMG
+Completed in 1143 μs
+Results saved to ../data/solution_dim1_n256_Dirichlet.csv
+
+Running test case: dim=1, grid_num=32, boundary="Neumann", solver=VC
+Completed in 163 μs
+Results saved to ../data/solution_dim1_n32_Neumann.csv
+
+Running test case: dim=1, grid_num=64, boundary="Neumann", solver=VC
+Completed in 290 μs
+Results saved to ../data/solution_dim1_n64_Neumann.csv
+
+Running test case: dim=1, grid_num=128, boundary="Neumann", solver=VC
+Completed in 534 μs
+Results saved to ../data/solution_dim1_n128_Neumann.csv
+
+Running test case: dim=1, grid_num=256, boundary="Neumann", solver=VC
+Completed in 1077 μs
+Results saved to ../data/solution_dim1_n256_Neumann.csv
+
+Running test case: dim=1, grid_num=32, boundary="Mixed", solver=VC
+Completed in 376 μs
+Results saved to ../data/solution_dim1_n32_Mixed_DN.csv
+
+Running test case: dim=1, grid_num=64, boundary="Mixed", solver=VC
+Completed in 689 μs
+Results saved to ../data/solution_dim1_n64_Mixed_DN.csv
+
+Running test case: dim=1, grid_num=128, boundary="Mixed", solver=VC
+Completed in 1201 μs
+Results saved to ../data/solution_dim1_n128_Mixed_DN.csv
+
+Running test case: dim=1, grid_num=256, boundary="Mixed", solver=VC
+Completed in 2181 μs
+Results saved to ../data/solution_dim1_n256_Mixed_DN.csv
+
+Running test case: dim=2, grid_num=32, boundary="Dirichlet", solver=VC
+Completed in 3420 μs
+Results saved to ../data/solution_dim2_n32_Dirichlet.csv
+
+Running test case: dim=2, grid_num=64, boundary="Dirichlet", solver=VC
+Completed in 15096 μs
+Results saved to ../data/solution_dim2_n64_Dirichlet.csv
+
+Running test case: dim=2, grid_num=128, boundary="Dirichlet", solver=VC
+Completed in 60716 μs
+Results saved to ../data/solution_dim2_n128_Dirichlet.csv
+
+Running test case: dim=2, grid_num=256, boundary="Dirichlet", solver=VC
+Completed in 277835 μs
+Results saved to ../data/solution_dim2_n256_Dirichlet.csv
+
+Running test case: dim=2, grid_num=32, boundary="Neumann", solver=FMG
+Completed in 2387 μs
+Results saved to ../data/solution_dim2_n32_Neumann.csv
+
+Running test case: dim=2, grid_num=64, boundary="Neumann", solver=FMG
+Completed in 6622 μs
+Results saved to ../data/solution_dim2_n64_Neumann.csv
+
+Running test case: dim=2, grid_num=128, boundary="Neumann", solver=FMG
+Completed in 28186 μs
+Results saved to ../data/solution_dim2_n128_Neumann.csv
+
+Running test case: dim=2, grid_num=256, boundary="Neumann", solver=FMG
+Completed in 107254 μs
+Results saved to ../data/solution_dim2_n256_Neumann.csv
+
+Running test case: dim=2, grid_num=32, boundary="Mixed", solver=FMG
+Completed in 6182 μs
+Results saved to ../data/solution_dim2_n32_Mixed_DDNN.csv
+
+Running test case: dim=2, grid_num=64, boundary="Mixed", solver=FMG
+Completed in 27245 μs
+Results saved to ../data/solution_dim2_n64_Mixed_DDNN.csv
+
+Running test case: dim=2, grid_num=128, boundary="Mixed", solver=FMG
+Completed in 105602 μs
+Results saved to ../data/solution_dim2_n128_Mixed_DDNN.csv
+
+Running test case: dim=2, grid_num=256, boundary="Mixed", solver=FMG
+Completed in 429107 μs
+Results saved to ../data/solution_dim2_n256_Mixed_DDNN.csv
+
+Running test case: dim=2, grid_num=32, boundary="Dirichlet", solver=FMG
+Completed in 3211 μs
+Results saved to ../data/solution_dim2_n32_Dirichlet_irregular.csv
+
+Running test case: dim=2, grid_num=64, boundary="Dirichlet", solver=FMG
+Completed in 12683 μs
+Results saved to ../data/solution_dim2_n64_Dirichlet_irregular.csv
+
+Running test case: dim=2, grid_num=128, boundary="Dirichlet", solver=FMG
+Completed in 52066 μs
+Results saved to ../data/solution_dim2_n128_Dirichlet_irregular.csv
+
+Running test case: dim=2, grid_num=256, boundary="Dirichlet", solver=FMG
+Completed in 227415 μs
+Results saved to ../data/solution_dim2_n256_Dirichlet_irregular.csv
+
