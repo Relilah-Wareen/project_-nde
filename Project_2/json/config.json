@@ -1,0 +1,112 @@
+{
+    "test_cases": [
+      {
+        "dim": 1,
+        "grid_nums": [32, 64, 128, 256],
+        "epsilon": 1e-8,
+        "nu1": 3,
+        "nu2": 3,
+        "boundary_type": "Dirichlet",
+        "boundary_values": {
+          "left": 1.0,
+          "right": 6.305807188705527
+        },
+        "restriction": "FullWeighting",
+        "prolongation": "LinearInterpolation",
+        "solver_type": "FMG"
+      },
+      {
+        "dim": 1,
+        "grid_nums": [32, 64, 128, 256],
+        "epsilon": 1e-2,
+        "nu1": 3,
+        "nu2": 3,
+        "boundary_type": "Neumann",
+        "boundary_values": {
+          "left": 2.0,
+          "right": 9.712849353123015
+        },
+        "restriction": "FullWeighting",
+        "prolongation": "QuadraticInterpolation",
+        "solver_type": "VC"
+      },
+      {
+        "dim": 1,
+        "grid_nums": [32, 64, 128, 256],
+        "epsilon": 1e-8,
+        "nu1": 3,
+        "nu2": 3,
+        "boundary_type": "Mixed",
+        "mixed_type": "DN",
+        "boundary_values": {
+          "left": 1.0,
+          "right": 9.712849353123015
+        },
+        "restriction": "FullWeighting",
+        "prolongation": "QuadraticInterpolation",
+        "solver_type": "VC"
+      },
+      {
+        "dim": 2,
+        "grid_nums": [32, 64, 128, 256],
+        "epsilon": 1e-8,
+        "nu1": 3,
+        "nu2": 3,
+        "boundary_type": "Dirichlet",
+        "restriction": "Injection",
+        "prolongation": "LinearInterpolation",
+        "solver_type": "VC",
+        "irregular": false
+      },
+      {
+        "dim": 2,
+        "grid_nums": [32, 64, 128, 256],
+        "epsilon": 1e-2,
+        "nu1": 3,
+        "nu2": 3,
+        "boundary_type": "Neumann",
+        "boundary_functions": {
+          "left": "Sq_Neumann_bound1",
+          "right": "Sq_Neumann_bound2",
+          "bottom": "Sq_Neumann_bound3",
+          "top": "Sq_Neumann_bound4"
+        },
+        "restriction": "Injection",
+        "prolongation": "LinearInterpolation",
+        "solver_type": "FMG",
+        "irregular": false
+      },
+      {
+        "dim": 2,
+        "grid_nums": [32, 64, 128, 256],
+        "epsilon": 1e-8,
+        "nu1": 3,
+        "nu2": 3,
+        "boundary_type": "Mixed",
+        "mixed_type": "DDNN",
+        "boundary_functions": {
+          "left": "Sq_Dirichlet_bound",
+          "right": "Sq_Dirichlet_bound",
+          "bottom": "Sq_Neumann_bound3",
+          "top": "Sq_Neumann_bound4"
+        },
+        "restriction": "FullWeighting",
+        "prolongation": "QuadraticInterpolation",
+        "solver_type": "FMG",
+        "irregular": false
+      },
+      {
+        "dim": 2,
+        "grid_nums": [32, 64, 128, 256],
+        "epsilon": 1e-6,
+        "nu1": 3,
+        "nu2": 3,
+        "boundary_type": "Dirichlet",
+        "restriction": "Injection",
+        "prolongation": "LinearInterpolation",
+        "solver_type": "FMG",
+        "irregular": true
+      }
+    ]
+  }
+  
